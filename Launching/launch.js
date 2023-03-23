@@ -30,7 +30,7 @@ function pLaunch(){
 }
 
 function nextStage() {
-    location.href = "../Research-moon/research.html";
+    location.href = "../Research/research.html";
 };
 
 function Progress(){
