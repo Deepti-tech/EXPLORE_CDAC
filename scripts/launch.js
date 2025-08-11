@@ -22,15 +22,15 @@ function esLaunch(){
 }
 
 function eLaunch(){
-    document.getElementById("launchInstruct").innerHTML = '<img class="path" src="../img/ellipse.png"/><p><h3>Oopps,this is wrong!!</h3>The orbit of the satellite is an ellipse with a point of projection as an apogee and Earth at one of the foci. During this elliptical path, if the satellite passes through the atmosphere of Earth, it experiences a non-conservative force of air resistance. As a result, it loses energy and spirals down to Earth.</p>'
+    document.getElementById("launchInstruct").innerHTML = '<img class="path" src="img/ellipse.png"/><p><h3>Oopps,this is wrong!!</h3>The orbit of the satellite is an ellipse with a point of projection as an apogee and Earth at one of the foci. During this elliptical path, if the satellite passes through the atmosphere of Earth, it experiences a non-conservative force of air resistance. As a result, it loses energy and spirals down to Earth.</p>'
 }
 
 function pLaunch(){
-    document.getElementById("launchInstruct").innerHTML = '<img class="path" src="../img/hyperbola.png"/><p><h3>Oopps,this is wrong!!</h3>The satellite escapes from the gravitational influence of Earth traversing a hyperbolic path</p>'
+    document.getElementById("launchInstruct").innerHTML = '<img class="path" src="img/hyperbola.png"/><p><h3>Oopps,this is wrong!!</h3>The satellite escapes from the gravitational influence of Earth traversing a hyperbolic path</p>'
 }
 
 function nextStage() {
-    location.href = "../Research/research.html";
+    location.href = "research.html";
 };
 
 function Progress(){
